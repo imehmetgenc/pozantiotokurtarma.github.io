@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pozantı Oto Kurtarma | 7/24 Yol Yardım</title>
+
+  <meta name="description" content="Pozantı oto kurtarma, 7/24 yol yardım ve çekici hizmeti. Hızlı, güvenilir ve uygun fiyatlı hizmet. Furkan Ayvalı.">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Google SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Pozantı Oto Kurtarma / 7/24 Yol Yardım",
+    "image": "https://pozantiotokurtarma.org/logo.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Pozantı / Adana",
+      "addressLocality": "Pozantı",
+      "addressRegion": "Adana",
+      "postalCode": "01470",
+      "addressCountry": "TR"
+    },
+    "telephone": "+905446724249",
+    "openingHours": "Mo-Su 00:00-23:59",
+    "url": "https://pozantiotokurtarma.org"
+  }
+  </script>
+  
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+
+    /* glow efekti */
+    .glow {
+      background: radial-gradient(circle at center, rgba(255,0,0,0.4), transparent 70%);
+    }
+
+    /* animasyon */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 1s ease;
+    }
+
+    .fade-up.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+
+<body class="bg-black text-white">
+
+<!-- HERO -->
+<section class="relative h-screen flex flex-col justify-center items-center text-center px-4 overflow-hidden">
+
+  <div class="absolute w-[500px] h-[500px] glow blur-3xl"></div>
+
+  <h1 class="text-5xl md:text-7xl font-bold fade-up">
+    Pozantı Oto Kurtarma
+  </h1>
+
+  <p class="mt-6 text-xl text-gray-300 fade-up">
+    7/24 Yol Yardım & Araç Çekici Hizmeti
+  </p>
+
+  <a href="tel:+905446724249"
+     class="mt-8 bg-red-600 px-8 py-4 rounded-xl text-lg hover:bg-red-700 transition fade-up">
+     Hemen Ara
+  </a>
+
+</section>
+
+<!-- SERVICES -->
+<section class="py-20 max-w-6xl mx-auto px-6">
+
+  <h2 class="text-4xl font-bold mb-10 fade-up">Hizmetlerimiz</h2>
+
+  <div class="grid md:grid-cols-3 gap-6">
+
+    <div class="bg-gray-900 p-6 rounded-2xl hover:scale-105 transition fade-up">
+      <h3 class="text-xl font-semibold mb-2">Oto Kurtarma</h3>
+      <p class="text-gray-400">Pozantı bölgesinde hızlı müdahale.</p>
+    </div>
+
+    <div class="bg-gray-900 p-6 rounded-2xl hover:scale-105 transition fade-up">
+      <h3 class="text-xl font-semibold mb-2">Yol Yardım</h3>
+      <p class="text-gray-400">Yolda kaldığınızda anında destek.</p>
+    </div>
+
+    <div class="bg-gray-900 p-6 rounded-2xl hover:scale-105 transition fade-up">
+      <h3 class="text-xl font-semibold mb-2">Araç Çekici</h3>
+      <p class="text-gray-400">Her araç için profesyonel taşıma.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- GALLERY -->
+<section class="py-20 max-w-6xl mx-auto px-6">
+
+  <h2 class="text-4xl font-bold mb-10 fade-up text-center">Galeri</h2>
+
+  <div class="relative">
+    <!-- Sol ve Sağ ok -->
+    <button id="prev" class="absolute left-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full z-10 hover:bg-black/70 hidden md:block">◀</button>
+    <button id="next" class="absolute right-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full z-10 hover:bg-black/70 hidden md:block">▶</button>
+
+    <div id="gallery" class="flex overflow-x-auto space-x-4 scrollbar-hide snap-x snap-mandatory cursor-grab">
+
+      <img src="image-1.webp" class="rounded-xl hover:scale-105 transition flex-shrink-0 w-[300px] snap-center">
+      <img src="image-2.webp" class="rounded-xl hover:scale-105 transition flex-shrink-0 w-[300px] snap-center">
+      <img src="image-3.webp" class="rounded-xl hover:scale-105 transition flex-shrink-0 w-[300px] snap-center">
+      <img src="image-4.webp" class="rounded-xl hover:scale-105 transition flex-shrink-0 w-[300px] snap-center">
+      <img src="image-5.webp" class="rounded-xl hover:scale-105 transition flex-shrink-0 w-[300px] snap-center">
+      <img src="image-6.webp" class="rounded-xl hover:scale-105 transition flex-shrink-0 w-[300px] snap-center">
+      <img src="image-7.webp" class="rounded-xl hover:scale-105 transition flex-shrink-0 w-[300px] snap-center">
+      <img src="image-8.webp" class="rounded-xl hover:scale-105 transition flex-shrink-0 w-[300px] snap-center">
+      <img src="image-9.webp" class="rounded-xl hover:scale-105 transition flex-shrink-0 w-[300px] snap-center">
+
+    </div>
+  </div>
+
+</section>
+
+<style>
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }
+
+  #gallery:active { cursor: grabbing; }
+</style>
+
+<!-- ABOUT -->
+<section class="py-20 max-w-4xl mx-auto text-center px-6">
+
+  <h2 class="text-4xl font-bold mb-6 fade-up">Hakkımızda</h2>
+
+  <p class="text-gray-400 text-lg fade-up">
+    Pozantı Oto Kurtarma olarak Furkan Ayvalı liderliğinde 7/24 hizmet veriyoruz.
+    Acil durumlarda hızlı ulaşım sağlayarak güvenilir oto kurtarma hizmeti sunuyoruz.
+  </p>
+
+</section>
+
+<!-- CTA -->
+<section class="py-20 text-center">
+
+  <h2 class="text-3xl font-bold fade-up">Hemen Bize Ulaşın</h2>
+
+  <a target="_blank" href="https://wa.me/905446724249?text=Merhaba%2C%20%C3%87ekici%20hizmeti%20alabilir%20miyim%3F"
+     class="mt-6 inline-block bg-green-500 px-8 py-4 rounded-xl text-lg fade-up">
+     WhatsApp
+  </a>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-10 text-gray-500">
+  Pozantı Oto Kurtarma - Furkan Ayvalı
+</footer>
+
+<!-- JS ANIMATION -->
+<script>
+  const elements = document.querySelectorAll(".fade-up");
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      }
+    });
+  });
+
+  elements.forEach(el => observer.observe(el));
+</script>
+
+<script>
+  const gallery = document.getElementById('gallery');
+  const prev = document.getElementById('prev');
+  const next = document.getElementById('next');
+
+  // Mouse Drag
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  gallery.addEventListener('mousedown', e => {
+    isDown = true;
+    gallery.classList.add('active');
+    startX = e.pageX - gallery.offsetLeft;
+    scrollLeft = gallery.scrollLeft;
+  });
+  gallery.addEventListener('mouseleave', () => isDown = false);
+  gallery.addEventListener('mouseup', () => isDown = false);
+  gallery.addEventListener('mousemove', e => {
+    if(!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - gallery.offsetLeft;
+    const walk = (x - startX) * 2; // hız
+    gallery.scrollLeft = scrollLeft - walk;
+  });
+
+  // Ok tuşları veya butonlarla scroll
+  const scrollAmount = 320; // her tıkta bir görsel kadar kaydır
+
+  next.addEventListener('click', () => { gallery.scrollBy({ left: scrollAmount, behavior: 'smooth' }); });
+  prev.addEventListener('click', () => { gallery.scrollBy({ left: -scrollAmount, behavior: 'smooth' }); });
+
+  // Klavye okları
+  window.addEventListener('keydown', (e) => {
+    if(e.key === 'ArrowRight') gallery.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    if(e.key === 'ArrowLeft') gallery.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  });
+</script>
+
+</body>
+</html>
